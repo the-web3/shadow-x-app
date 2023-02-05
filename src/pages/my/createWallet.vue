@@ -28,10 +28,14 @@
 	import { onLoad } from '@dcloudio/uni-app';
 	export default defineComponent({
 		setup() {
-			const walletName = ref('amy')
-			const password = ref('1234567a')
-			const confirmPassword = ref('1234567a')
-			const checked = ref(true)
+			// const walletName = ref('amy')
+			// const password = ref('1234567a')
+			// const confirmPassword = ref('1234567a')
+			// const checked = ref(true)
+			const walletName = ref('')
+			const password = ref('')
+			const confirmPassword = ref('')
+			const checked = ref(false)
 			const chain_name = ref('')
 			const { proxy } = getCurrentInstance() as ComponentInternalInstance;
 			const isActive = computed(() => {

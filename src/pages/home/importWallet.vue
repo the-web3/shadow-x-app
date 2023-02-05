@@ -44,10 +44,14 @@
 		setup() {
 			const { proxy } = getCurrentInstance() as ComponentInternalInstance;
 			const tipWords = ref<any>([])
-			const words = ref('sniff erosion close power mosquito reveal wall parent talent success hurt find')
-			const walletName = ref('amy')
-			const password = ref('1234567a')
-			const confirmPassword = ref('1234567a')
+			// const words = ref('sniff erosion close power mosquito reveal wall parent talent success hurt find')
+			// const walletName = ref('amy')
+			// const password = ref('1234567a')
+			// const confirmPassword = ref('1234567a')
+			const words = ref('')
+			const walletName = ref('')
+			const password = ref('')
+			const confirmPassword = ref('')
 			const mnemonicCode = ref('')
 			const deviceId = ref('')
 			const checked = ref(false)
